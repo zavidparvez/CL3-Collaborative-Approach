@@ -17,20 +17,19 @@ This project implements Transfer Learning, Federated Learning, and Incremental L
 
 Clone the repository:
 
-git clone https://github.com/zavidparvez/CL3-Collaborative-Approach.git
-
-cd CL3-Collaborative-Approach
+- **git clone https://github.com/zavidparvez/CL3-Collaborative-Approach.git
+- **cd CL3-Collaborative-Approach
 
 Installation
 Prerequisites
 Ensure you have the following installed:
 
--Python 3.7 or higher
--TensorFlow 2.x
--Keras
--EfficientNet
+- **Python 3.7 or higher
+- **TensorFlow 2.x
+- **Keras
+- **EfficientNet
 
 Install the required Python packages by running:
--pip install -r requirements.txt
+- **pip install -r requirements.txt
 
 

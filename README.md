@@ -1,21 +1,11 @@
-This repository provides an implementation of X-ray image classification using a combination of Transfer Learning, Federated Learning, and Incremental Learning to address Concept Drift. The project focuses on applying federated learning techniques across multiple clients (e.g., hospitals or institutions) using pre-trained models to minimize the need for sharing sensitive data, while also adapting to changing data patterns over time.
+# Transfer Learning, Federated Learning, and Incremental Learning with Concept Drift Using X-ray Images
 
-Table of Contents
-Project Overview
-Project Structure
-Installation
-Running Experiments
-Model Descriptions
-Transfer Learning
-Federated Learning
-Incremental Learning and Concept Drift
-Contributing
-License
-Project Overview
-This project applies state-of-the-art machine learning techniques to classify X-ray images in a distributed learning environment. By leveraging transfer learning from pre-trained models like EfficientNet and federating the learning process across multiple clients, the system avoids direct data sharing and instead aggregates learning updates. Furthermore, incremental learning is employed to adapt to Concept Drift — changes in data distributions over time — to ensure continuous model improvement.
+This project implements Transfer Learning, Federated Learning, and Incremental Learning techniques with a focus on Concept Drift using X-ray image datasets. The goal is to incrementally improve a model using federated data from multiple clients without centralizing the data, which is crucial for privacy-sensitive applications such as medical imaging.
 
-Key Components:
-
-Transfer Learning: Fine-tune a pre-trained model (EfficientNet) to perform X-ray classification.
-Federated Learning: Distribute the learning process across five clients, aggregating weights to create a global model.
-Incremental Learning with Concept Drift Detection: Update the model dynamically in response to changes in data distribution.
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Experiments](#experiments)
+- [Contributing](#contributing)
+- [License](#license)

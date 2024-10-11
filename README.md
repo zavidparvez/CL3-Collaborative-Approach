@@ -9,3 +9,16 @@ This project implements Transfer Learning, Federated Learning, and Incremental L
 - [Experiments](#experiments)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Project Overview
+
+- **Transfer Learning**: A pre-trained EfficientNetB7 model is fine-tuned on X-ray images to perform classification.
+- **Federated Learning**: Local models on different clients are trained on decentralized X-ray data, and the results are aggregated to improve the global model.
+- **Incremental Learning with Concept Drift**: The model adapts incrementally to new data, addressing the concept drift phenomenon in X-ray images over time.
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/zavidparvez/CL3-Collaborative-Approach.git
+cd CL3-Collaborative-Approach
